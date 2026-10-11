@@ -1,0 +1,115 @@
+.body { 
+   margin: 0;
+   font-family: Arial, sans-serif; 
+   background: wheat; 
+   color: #202122; }
+    
+   
+     .header { 
+    background:white; 
+    border-bottom: 1px solid grey; 
+    padding: 10px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; }
+    
+    
+     .header h2 { 
+        margin: 0; 
+        font-family: Georgia, serif; 
+        font-weight: normal; }
+    
+    
+        header input { 
+        padding: 6px; 
+        width: 220px; 
+        border: 1px solid grey; }
+   
+   
+        .layout { 
+        display: flex; 
+        max-width: 1100px; 
+        margin: auto; }
+   
+   
+        .nav { 
+        width: 170px; 
+        padding: 20px 10px; 
+        font-size: 14px; }
+    
+    
+        .nav a { 
+        display: block; 
+        color: lightskyblue; 
+        text-decoration: none; 
+        margin-bottom: 8px; }
+    
+    
+        .main { 
+        flex: 1; 
+        background:whitesmoke; 
+        border: 1px solid burlywood; 
+        padding: 20px 30px; }
+   
+   
+       .h1 { 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        border-bottom: 1px solid lightgray; 
+        margin-top: 0; }
+    
+    
+        .h2.sec { 
+        font-family: Georgia, serif; 
+        font-weight: normal; 
+        border-bottom: 1px solid lightslategray; }
+    
+    
+        a { 
+        color: blue; }
+    
+    
+        .infobox { 
+        float: right; 
+        width: 250px; 
+        margin: 0 0 15px 20px; 
+        border: 1px solid lightslategray; 
+        background: whitesmoke; 
+        font-size: 14px; }
+   
+   
+        .infobox title { 
+        background: white; 
+        text-align: center; 
+        font-weight: bold; 
+        padding: 8px; }
+    
+    
+        .infobox table { 
+        width: 100%; 
+        border-collapse: collapse; }
+    
+    
+        .infobox td { 
+        padding: 5px 8px; 
+        vertical-align: top; }
+    
+    
+        .infobox 
+{ 
+        font-weight: bold; 
+        width: 40%; }
+    
+    
+        .doc { 
+        display: inline-block; 
+        border: 1px solid lightgray; 
+        background: whitesmoke; 
+        padding: 10px 20px; 
+        font-size: 14px; }
+    
+        footer { 
+        text-align: center; 
+        font-size: 12px; 
+        color:gray; 
+        padding: 20px; }
